@@ -1,0 +1,14 @@
+{
+  "name": "stealjs-progressive-loading",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "steal-tools": "^0.6.0-pre.2"
+  }
+}
