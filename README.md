@@ -10,7 +10,7 @@ Prerequities: Ensure [Node.js](http://nodejs.org/) along with NPM are properly i
 Clone the repo to your local machine.
 
 ```
-> https://github.com/stealjs/progressive-loading.git
+> git clone https://github.com/stealjs/progressive-loading.git
 ```
 
 ##### Install
@@ -36,6 +36,6 @@ Spin up your webserver or run `http-server`
 > http-server
 ```
 
-Open file `http://localhost:8080/site/site.html` in browser.
+Open `http://localhost:8080/site/site.html` in browser.
 
 Open the Network panel in Developer Tools and click the `signup` and `login` links. Steal-tools builds a graph of the required files, minifies and concatenates then into progressively loaded bundles.
