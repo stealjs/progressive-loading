@@ -19,14 +19,13 @@ Install Node modules and Bower components
 ```
 > cd progressive-loading
 > npm install
-> bower install
 ```
 
 ##### Build
-Run the `steal build` task to have steal-tools analyze the page and create progressive loading bundles.
+Run this script from within your node_modules folder to have steal-tools analyze the page and create progressive loading bundles.
 
 ```
-> ./node_modules/steal-tools/bin/steal build --main=app --config=site/config.js
+> ./node_modules/steal-tools/bin/steal
 ```
 
 ##### Serve
