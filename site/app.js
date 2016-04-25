@@ -1,19 +1,19 @@
-import $ from 'jquery';
+import $ from "jquery";
 
 $(function(){
   var onhashchange = function(){
       console.log(window.location.hash);
 
     if(window.location.hash === "#login") {
-      System.import("login").then(function(){
+      System.import("app/login").then(function(){
         $("#main").login();
       });
     } else if(window.location.hash === "#signup" ) {
-      System.import("signup").then(function(){
+      System.import("app/signup").then(function(){
         $("#main").signup();
       });
     } else {
-      System.import("homepage").then(function(){
+      System.import("app/homepage").then(function(){
         $("#main").homepage();
       });
     }
