@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "jquery": "^3.1.1",
-    "steal": "^1.0.0"
+    "steal": "^1.11.7"
   },
   "system": {
     "npmAlgorithm": "flat",
